@@ -7,24 +7,36 @@
   box-sizing: border-box;
 }
 h1,
-h2 {
+h2,
+h3 {
   color: rgb(255, 255, 255);
   margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+h3 {
+  font-size: 4rem;
 }
 h1 {
   padding-top: 2rem;
+}
+.widthContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: rgb(0, 0, 0);
 }
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
   margin-top: 5vh;
-  background: black;
+  background: rgb(17, 17, 17);
 }
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
 }
 .searchInput {
   height: 2rem;
@@ -133,4 +145,14 @@ nav {
   justify-content: center;
   align-items: center;
   height: 5rem;
+}
+#pokedexPage {
+  padding-top: 2rem;
+}
+.pokeImage {
+  height: 20rem;
+}
+.goBack {
+  background-color: white;
+  color: black;
 }

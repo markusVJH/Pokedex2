@@ -27,7 +27,7 @@ if (isLoading) {
   return <p>Loading...</p>;
 }
   return (
-    <div>
+    <div id="pokedexPage">
       <input onChange={searchInputHandler} className="searchInput" placeholder='Search :)'/>
       <div id="pokeCards">
       {searchFilter.map((pokemon) => (

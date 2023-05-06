@@ -24,12 +24,12 @@ const PokeSingle = () => {
 
   return (
     <div>
-      <h2>{data.name}</h2>
+      <h3> {data.name}</h3>
+      <button onClick={() => navigate(-1)} className="goBack">Go back </button>
       <img
         src={data.sprites?.other.dream_world.front_default}
         alt={data.name}
-      />
-      <button onClick={() => navigate(-1)}>Go back </button>
+        className="pokeImage"/>
     </div>
   );
 };

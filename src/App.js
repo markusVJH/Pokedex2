@@ -10,6 +10,7 @@ function App() {
 
 
 return (
+  <div className="widthContainer">
   <BrowserRouter>
   <Navigation/>
   <Routes>
@@ -18,6 +19,7 @@ return (
     <Route path="pokedex/:pokesingle" element={<PokeSingle />} />
   </Routes>
   </BrowserRouter>
+  </div>
 );
 }
 
