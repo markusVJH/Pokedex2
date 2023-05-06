@@ -155,4 +155,5 @@ nav {
 .goBack {
   background-color: white;
   color: black;
+  border-radius: 0;
 }

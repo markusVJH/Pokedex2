@@ -24,8 +24,8 @@ const PokeSingle = () => {
 
   return (
     <div>
+      <button onClick={() => navigate(-1)} className="goBack">⬅Pokedex </button>
       <h3> {data.name}</h3>
-      <button onClick={() => navigate(-1)} className="goBack">Go back </button>
       <img
         src={data.sprites?.other.dream_world.front_default}
         alt={data.name}
