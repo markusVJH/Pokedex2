@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
   return (
     <header>
-    <h1>Pokedex 2.0</h1>
+    <h1>Welcome to Pokedex 2.0!</h1>
   </header>
   );
 };

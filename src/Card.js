@@ -20,7 +20,7 @@ function Card(props) {
         </div>
       </div>
       <img src={sprite} alt="Pokemon"/>
-      <Link to={name}>See more</Link>
+      <Link to={name} className="link">See more</Link>
     </div>
   );
 }

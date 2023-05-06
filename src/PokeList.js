@@ -28,7 +28,7 @@ if (isLoading) {
 }
   return (
     <div>
-      <input onChange={searchInputHandler} className="searchInput"/>
+      <input onChange={searchInputHandler} className="searchInput" placeholder='Search :)'/>
       <div id="pokeCards">
       {searchFilter.map((pokemon) => (
         <Card
