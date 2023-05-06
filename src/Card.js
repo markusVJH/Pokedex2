@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Card(props) {
   const { id, name, types, sprite } = props;
@@ -19,7 +20,7 @@ function Card(props) {
         </div>
       </div>
       <img src={sprite} alt="Pokemon"/>
-      <a href=''>See more</a>
+      <Link to={name}>See more</Link>
     </div>
   );
 }
